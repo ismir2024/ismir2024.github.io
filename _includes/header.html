@@ -1,0 +1,43 @@
+<header aria-label="Main navigation" class="header" itemscope itemtype="http://schema.org/SiteNavigationElement">
+    <div class="container">
+<!--        <div class="header__inner">-->
+            <nav class="navbar navbar-light navbar-expand-lg py-0">
+                <a class="navbar-brand header__logo" href="{{ '/' | relative_url }}">
+                    <div class="header__logo--container">
+                        <img alt="" height="30" src="/assets/logo.png" width="30">
+                    </div>
+                    &nbsp;ISMIR 2024
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">                        
+                        {% for item in site.navigation %}
+                        {% if item.subitems %}
+                        <li class="nav-item dropdown">
+                            <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle"
+                               data-bs-toggle="dropdown" href="#" id="navbarDropdownMenuLink">
+                                {{ item.name }}
+                            </a>
+
+                            <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                                {% for subitem in item.subitems %}
+                                <a class="dropdown-item" href="{{ subitem.link }}">{{ subitem.name }}</a>
+                                {% endfor %}
+                            </div>
+                        </li>
+
+                        {% else %}
+                        <li class="nav-item">
+                            <a class="nav-link" href=" {{ item.link }}"> {{ item.name }}</a>
+                        </li>
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div>
+            </nav>
+        </div>
+<!--    </div>-->
+</header>

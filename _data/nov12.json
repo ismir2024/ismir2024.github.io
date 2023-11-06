@@ -1,0 +1,89 @@
+{
+	
+	"schedule": [
+		{
+			"date": "2021/11/12", 
+			"start_time": "01:30", 
+			"end_time": "03:00", 
+			"title": "Industry Panel - MIR Technologies Across Cultures",
+			"type": "Industry"
+		},		
+		{
+			"date": "2021/11/12", 
+			"start_time": "03:00", 
+			"end_time": "04:00", 
+			"title": "Masterclass - CV",
+			"type": "Industry"
+		},	
+		{
+			"date": "2021/11/12", 
+			"start_time": "04:30", 
+			"end_time": "05:30", 
+			"title": "Social - Yoga",
+			"type": "Social"
+		},	
+		{
+			"date": "2021/11/12", 
+			"start_time": "05:30", 
+			"end_time": "06:30", 
+			"title": "Music - Concert 4 (Replay)",
+			"type": "Music"		
+		},	
+		{
+			"date": "2021/11/12", 
+			"start_time": "07:00", 
+			"end_time": "09:00", 
+			"title": "Late Breaking Demos (B)",
+			"type": "LBD"
+		},	
+		{
+			"date": "2021/11/12", 
+			"start_time": "09:30", 
+			"end_time": "11:00", 
+			"title": "ISMIR Society Meeting + Awards (B)",
+			"type": "Main"
+		},	
+		{
+			"date": "2021/11/12", 
+			"start_time": "11:00", 
+			"end_time": "12:00",
+			"title": "Diversity & Inclusion Special Session: Local Initiatives",
+			"type": "WiMIR"		
+		},
+		{
+			"date": "2021/11/12", 
+			"start_time": "12:30", 
+			"end_time": "2021/11/13 05:00", 
+			"title": "Satellite - MDX",
+			"type": "Satellite"	
+		},		
+		{
+			"date": "2021/11/12", 
+			"start_time": "13:30", 
+			"end_time": "15:00", 
+			"title": "Industry Panel - MIR and Education",
+			"type": "Industry"
+		},	
+		{
+			"date": "2021/11/12", 
+			"start_time": "15:00", 
+			"end_time": "16:00", 
+			"title": "Masterclass - System Design Interview",
+			"type": "Industry"
+		},	
+		{
+			"date": "2021/11/12", 
+			"start_time": "16:30", 
+			"end_time": "17:30", 
+			"title": "Social - Yoga",
+			"type": "Social"
+		},
+		{
+			"date": "2021/11/12", 
+			"start_time": "22:00", 
+			"end_time": "2021/11/13 06:00", 
+			"title": "Satellite - NLP4MusA",
+			"type": "Satellite"	
+		}
+	]
+}

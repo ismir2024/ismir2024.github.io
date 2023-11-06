@@ -1,0 +1,88 @@
+title: ISMIR 2024 # your site title
+author: Ashvala Vinay # You :P
+description: International Society for Music Information Retrieval Conference
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# SEO PLUGIN
+social:
+  name: ISMIR 2024
+  links:
+    - https://twitter.com/ISMIRConf
+
+
+# THEME SETTINGS
+navigation:
+  # - name: "Calls"
+  #   subitems:
+  #   - {name: "Call for Papers", link: "/cfp/"}
+  #   - {name: "Call for Tutorials", link: "/cft/"}
+  #   - {name: "Call for Sponsors", link: "/cfs/"}
+  #   - {name: "Call for Late-breaking Demo Contributions", link: "/clbd/"}
+  #   - {name: "Call for Music", link: "/cfm/"}
+  #   - {name: "Call for Lab Showcase", link: "/cflab/"}
+  # - name: "Program"
+  #   subitems: 
+  #     - {name: "Schedule", link: "/schedule/"}
+  #     - {name: "Keynote Speakers", link: "/keynotes/"}
+  #     - {name: "Papers", link: "/papers/"}
+  #     - {name: "Tutorials", link: "/tutorials/"}
+  #     - {name: "Late Breaking Demos", link: "/lbd"}
+  #     - {name: "Lab Showcase", link: "/labshowcase/"}
+  #     - {name: "Music", link: "/music/"}
+  #     - {name: "Special Sessions", link: "/specialsessions/"}
+  # - name: "Attend"
+  #   subitems:
+  #   - {name: "Registration", link: "/registration/"}
+  #   - {name: "Financial Support", link: "/financialsupport/"}   
+  #   - {name: "Code of Conduct", link: "/coc/"}    
+  # - {name: "Blog", link: "/blog/"}
+  # - {name: "Sponsors", link: "/sponsors/"}
+  # - {name: "Team", link: "/team/"}
+  # - {name: "WiMIR", link: "/wimir/"}
+
+tagline: >
+  International Society for Music Information Retrieval Conference 2024
+
+hero_img: banners/banner.png # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
+
+email: ismir2024@ismir.net # email for form submission
+twitter_username: ismirconf # replace with your_twitter_username or comment to remove link from footer
+# wechat_username: true
+# facebook_username: ismir2021
+# linkedin_username: true
+# instagram_username: ismir.2021
+sass:
+    sass_dir: _sass
+
+service_worker: false
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge # or pygments or null
+# theme: jekyll-sleek # Uncomment if you're using the theme as a ruby gem
+exclude:
+  - README.md
+  - node_modules
+  - script
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - npm-debug.log
+  - gulpfile.js
+  - sleek.jpg
+
+include: ['_pages']
+permalink: /:title/
+
+compress_html:
+  clippings: all
+
+kramdown:
+  parse_block_html: true
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag

@@ -1,0 +1,60 @@
+table {
+  display: table;
+  table-layout: auto;
+  width: 100%;
+  overflow-x: scroll;
+  margin-bottom: 1.25rem;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid $border;
+  border-radius: 4px;
+  font-size: 14.5px;
+
+  th {
+    background-color: $light-bg-color;
+  }
+
+  th,
+  td {
+    padding: 6px 13px;
+    border: 1px solid $border;
+  }
+}
+
+.org_table{
+  width: 100%;
+  table-layout: fixed;
+  img{
+    width: 30%;
+  }
+}
+
+.table{
+  border: none !important;
+  th,
+  td{
+    border: none;    
+  };
+
+  font-size: 1.05em;
+
+  a{
+    h5{
+      color: #0B7A75;
+    }
+    h5:hover{ 
+      color: #19535f;
+    }
+  }
+
+  .deadline-title{
+    padding-top: 2em;
+  }
+}
+
+.deadline-table{
+  th{
+    margin-top: 1em !important; 
+    margin-bottom: 1em !important;
+  }
+}

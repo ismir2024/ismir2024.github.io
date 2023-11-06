@@ -1,0 +1,128 @@
+{
+	
+	"schedule": [
+		{
+			"date": "2021/11/09",
+			"start_time": "00:00",
+			"end_time": "01:00",
+			"title": "Getting the most out of ISMIR 2021 (A)",
+			"type": "WiMIR"
+		},
+		{
+			"date": "2021/11/09", 
+			"start_time": "01:30", 
+			"end_time": "03:00", 
+			"title": "Poster 2 (A)",
+			"type": "Poster",
+			"details": "/papers/?session-2"
+		},
+		{
+			"date": "2021/11/09", 
+			"start_time": "04:30", 
+			"end_time": "05:00", 
+			"title": "Music - Concert 1",
+			"type": "Music"
+		},
+		{
+			"date": "2021/11/09", 
+			"start_time": "03:30", 
+			"end_time": "04:30", 
+			"title": "Special Session 1: MIR for Human Health",
+			"type": "Special"
+		},
+		{
+			"date": "2021/11/09", 
+			"start_time": "05:00", 
+			"end_time": "06:00",
+			"title": "Social - Yoga",
+			"type": "Social"			
+		},
+		{
+			"date": "2021/11/09",
+			"start_time": "7:00",
+			"end_time": "8:00",
+			"title": "Opening Session (B)",
+			"type": "Main"
+		},
+		{
+			"date": "2021/11/09", 
+			"start_time": "08:00", 
+			"end_time": "09:00",
+			"title": "Keynote 1 - Christine McLeavey (B)",
+			"type": "Keynote",
+			"details": "/keynotes/",
+			"description": "Click on the details button for more information."			
+		},
+		{
+			"date": "2021/11/09", 
+			"start_time": "09:30", 
+			"end_time": "11:00",
+			"title": "Poster 1 (B)",
+			"type": "Poster",
+			"details": "/papers/?session-1"			
+		},
+		{
+			"date": "2021/11/09", 
+			"start_time": "12:00", 
+			"end_time": "13:00",
+			"title": "Getting the Most Out of ISMIR 2021 (B)",
+			"type": "WiMIR"			
+		},
+		{
+			"date": "2021/11/09", 
+			"start_time": "13:30", 
+			"end_time": "15:00",
+			"title": "Poster 2 (B)",
+			"type": "Poster",
+			"details": "/papers/?session-2"		
+		},
+		{
+			"date": "2021/11/09", 
+			"start_time": "16:30", 
+			"end_time": "17:00",
+			"title": "Music - Concert 2",
+			"type": "Music"		
+		},
+		{
+			"date": "2021/11/09", 
+			"start_time": "15:30", 
+			"end_time": "17:00",
+			"title": "Special Session 2: IMS Digital Musicology",
+			"type": "Special"		
+		},
+		{
+			"date": "2021/11/09", 
+			"start_time": "17:00", 
+			"end_time": "18:00",
+			"title": "Social - Yoga",
+			"type": "Social"	
+		},
+		{
+			"date": "2021/11/09", 
+			"start_time": "19:00", 
+			"end_time": "20:00",
+			"title": "Keynote 2 - Michèle Castellengo (A)",
+			"type": "Keynote",
+			"details": "/keynotes/",
+			"description": "Click on the details button for more information."
+		},
+		{
+			"date": "2021/11/09", 
+			"start_time": "20:30", 
+			"end_time": "22:00",
+			"title": "Poster 3 (A)",
+			"type": "Poster",
+			"details": "/papers/?session-3"		
+		},
+		{
+			"date": "2021/11/09", 
+			"start_time": "22:30", 
+			"end_time": "23:30",
+			"title": "Best Paper Candidates 1 (A)",
+			"type": "Keynote",
+			"description": "Click on the details for more information.",
+			"details": "/papers/?bpc"
+
+		}
+	]
+}
