@@ -1,0 +1,53 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
+    {% include head.html %}
+    <body class="site" onload="customTwitter()">
+        {% if site.google_tag_manager %}
+            <!-- Google Tag Manager (noscript) -->
+            <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            <!-- End Google Tag Manager (noscript) -->
+        {% endif %}
+        {% include header.html %}
+        <div class="hero lazyload" data-bg="{{ '/assets/banner1.jpeg' | relative_url }}" style='background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),url("/assets/banner1.jpeg"); background-size:100%;'>
+            <div class="hero__wrap">
+                <h2 class="hero__title" style="text-align: left">
+                <br/>
+                <br/>
+                Welcome to the 25<sup>th</sup>
+                <br>
+                <b>International Society
+                <br>for Music Information Retrieval</b>
+                <br>Conference
+                </h2>
+                <h3 style="text-align: left">
+                <br>
+                <br>
+                <b> Nov 10th-14th, </b> <br/> <b> Hyatt Regency </b> <br/> <b> San Francisco, CA</b>
+                <br/>
+                 
+                </h3>
+                <br/>
+            </div>
+        </div>   
+        <main class="site__content"> 
+            <div class="container"> 
+                <div class="page-content"> 
+                    {{ content }}
+                </div>  
+            </div> 
+        </main> 
+        {% include footer.html %}
+    </body>
+    
+    <style> 
+        .hero{ 
+            height: 95vh; 
+
+        }
+    </style> 
+
+</html>
